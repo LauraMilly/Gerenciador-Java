@@ -1,6 +1,6 @@
-Gerenciador de Frota de Veículos:
+<h1>Gerenciador de Frota de Veículos:</h1>
 
-O sistema permite o armazenamento e a consulta de diferentes tipos de veículos, como carros e motos, e realiza o cálculo do valor do seguro de cada um, além de gerenciar a realização de manutenções periódicas.
+<p>O sistema permite o armazenamento e a consulta de diferentes tipos de veículos, como carros e motos, e realiza o cálculo do valor do seguro de cada um, além de gerenciar a realização de manutenções periódicas.</p>
 
 <h1>Funcionalidades:</h1>
 
@@ -11,15 +11,17 @@ O sistema permite o armazenamento e a consulta de diferentes tipos de veículos,
 
 <h1>Estrutura do Projeto:</h1>
 
-Classe Veiculo: Classe abstrata que define os atributos comuns dos veículos e métodos para exibir detalhes e calcular o valor do seguro.
-Interface Manutencao: Define o método para realizar manutenções nos veículos.
-Classes Carro e Moto: Subclasses de Veiculo que implementam os métodos necessários, incluindo o cálculo do seguro e a execução da manutenção.
-Classe GerenciadorVeiculos: A classe principal que gerencia a lista de veículos, exibe seus detalhes e realiza as operações de cálculo de seguro e manutenção.
-Tecnologias Utilizadas:
-Java (JDK 17 ou superior)
-Programação Orientada a Objetos (POO)
-Conceitos de abstração, herança e interfaces
-Como Executar:
-Instale o JDK (Java Development Kit).
-Compile o código usando javac GerenciadorVeiculos.java.
-Execute o programa com o comando java GerenciadorVeiculos.
+°Classe Veiculo: Classe abstrata que define os atributos comuns dos veículos e métodos para exibir detalhes e calcular o valor do seguro.
+°Interface Manutencao: Define o método para realizar manutenções nos veículos.
+°Classes Carro e Moto: Subclasses de Veiculo que implementam os métodos necessários, incluindo o cálculo do seguro e a execução da manutenção.
+°Classe GerenciadorVeiculos: A classe principal que gerencia a lista de veículos, exibe seus detalhes e realiza as operações de cálculo de seguro e manutenção.
+
+<h1>Tecnologias Utilizadas:</h1>
+
+°Java (JDK 17 ou superior)
+°Programação Orientada a Objetos (POO)
+°Conceitos de abstração, herança e interfaces
+°Como Executar:
+°Instale o JDK (Java Development Kit).
+°Compile o código usando javac GerenciadorVeiculos.java.
+°Execute o programa com o comando java GerenciadorVeiculos.
